@@ -16,8 +16,20 @@ const router = createRouter({
         },
         {
           path: 'home',
+          name: 'home',
+          component: () => import('@/views/pages/home/Home.vue')
+        },
+        {
+          path: 'dashboard',
           name: 'dashboard',
           component: () => import('@/views/Dashboard.vue')
+        },
+
+        // USER
+        {
+          path: 'profile',
+          name: 'user-profile',
+          component: () => import('@/views/pages/user-profile/User-profile.vue')
         },
 
         //UI KIT

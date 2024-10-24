@@ -7,6 +7,7 @@ const model = ref([
     label: 'Principal',
     items: [
       { label: 'Home', icon: 'pi pi-fw pi-home', to: '/home' },
+      { label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/dashboard' }
     ]
   },
   {
@@ -82,7 +83,7 @@ const model = ref([
         target: '_blank'
       }
     ]
-  },
+  }
 ])
 </script>
 

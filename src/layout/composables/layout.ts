@@ -83,6 +83,6 @@ export function useLayout() {
     setActiveMenuItem,
     toggleDarkMode,
     setPrimary,
-    resetMenu,
+    resetMenu
   }
 }
